@@ -50,8 +50,8 @@ const fs = require('fs');
 //         throw err
 //     }
 // })
-// const onlineUsers =[{name: "Andrii", age: 22, city: "Lviv" },{name: "Petro", age: 25, city: "Lviv" }];
-// const inPersonUsers =[{name: "Vlad", age: 22, city: "Lviv" },{name: "Ivan", age: 25, city: "Lviv" }];
+const onlineUsers =[{name: "Andrii", age: 22, city: "Lviv" },{name: "Petro", age: 25, city: "Lviv" }];
+const inPersonUsers =[{name: "Vlad", age: 22, city: "Lviv" },{name: "Ivan", age: 25, city: "Lviv" }];
 
 // for (let i = 0; i < inPersonUsers.length; i++){
 //     for (const usersKey in inPersonUsers[i]) {

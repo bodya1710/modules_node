@@ -1,0 +1,6 @@
+name: Vlad
+age: 22
+city: Lviv
+name: Ivan
+age: 25
+city: Lviv

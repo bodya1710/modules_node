@@ -1,0 +1,6 @@
+name: Andrii
+age: 22
+city: Lviv
+name: Petro
+city: Lviv
+age: 25
