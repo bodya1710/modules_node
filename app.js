@@ -85,7 +85,48 @@ const fs = require('fs');
 //     }
 // })
 // })
-////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////
 
-
-
+    // fs.writeFile(path.join(__dirname, 'task_3', 'file_2.txt'),'some data',(err)=>{
+    //         if (err){
+    //     console.log(err)
+    //     throw err
+    // }
+    // })
+// for (let i = 0; i< 10; i++){
+//     fs.mkdir(path.join(__dirname, 'task_3', `dir_${i}`), (err)=>{
+//         if (err){
+//             console.log(err)
+//             throw err
+//         }
+//     })
+// }
+// const directoryPath = path.join(__dirname, 'task_3');
+// fs.readdir(directoryPath, function (err, files) {
+//
+//     if (err) {
+//         return console.log('Unable to scan directory: ' + err);
+//     }
+//     files.forEach(function (file) {
+//         let path = `${__dirname}/task_3/${file}`;
+//         fs.lstat(path, file, (err, stats) => {
+//             if(err)
+//                 return console.log(err); //Handle error
+//             if (stats.isFile()){
+//                 fs.truncate(path, (err)=>{
+//                     if (err){
+//                         console.log(err)
+//                         throw err
+//                     }
+//                 })
+//             }if (stats.isDirectory()){
+//                 fs.rename(path,`${__dirname}/task_3/${file}_new`, (err)=>{
+//                     if (err){
+//                         console.log(err)
+//                         throw err
+//                     }
+//                 })
+//             }
+//         });
+//     });
+// });
