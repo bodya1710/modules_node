@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Users</title>
+    <style>
+        .wrap_users{
+            margin: 15px;
+            padding: 10px;
+            border: 2px solid cornflowerblue;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+        {{#each users}}
+        <div class="wrap_users">
+            <div>First Name: {{this.firstName}}</div>
+            <div>Last Name: {{this.lastName}}</div>
+            <div>Email: {{this.email}}</div>
+            <div>Password: {{this.password}}</div>
+            <div>Age: {{this.age}}</div>
+            <div>City: {{this.city}}</div>
+        </div>
+
+            {{/each}}
+</body>
+</html>
