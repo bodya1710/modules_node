@@ -99,7 +99,6 @@ app.get('/users', (req,res)=>{
         const users = newUsers;
         res.render('users', {users});
     }else {
-        console.log(users)
         res.render('users', {users});
     }
 
